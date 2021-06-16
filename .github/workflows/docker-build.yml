@@ -43,7 +43,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./Dockerfile
+          file: /home/runner/work/Python-CICD/Python-CICD/exercises/Dockerfile
           platforms: linux/amd64
           push: true
           tags: shashankkawle67/go-helloworld:latest
